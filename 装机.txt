@@ -37,7 +37,7 @@ fi
 m=0
 while :
 do
-	read -p '请输入要配置的网卡编号(eth~)' nv
+	read -p '请输入要配置的网卡编号(eth0)' nv
 	if [ -z $nv ];then
 	for i in ${num[@]}
 	do
